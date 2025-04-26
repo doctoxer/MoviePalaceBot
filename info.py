@@ -30,14 +30,14 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/f983d857f3c
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split() 
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]  #Admin Id
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()] #Movie Database Channel Id
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))  #Log Channel Id
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', ''))  #Streming Log Channel Id
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', ''))  #Movie Update Channel Id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '')) #Premium Subscription Log Channel Id
-reqst_channel = environ.get('REQST_CHANNEL_ID', '') #Movie Request Channel Id
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002595419106').split()] #Movie Database Channel Id
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002595419106'))  #Log Channel Id
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002595419106'))  #Streming Log Channel Id
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002595419106'))  #Movie Update Channel Id
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002595419106')) #Premium Subscription Log Channel Id
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002595419106') #Movie Request Channel Id
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '') #Support Chat Id
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002595419106') #Support Chat Id
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "") #MongoDB Url
@@ -54,12 +54,12 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/MoviePalace_Off')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/MoviePalace_Off')
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '')) 
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', ''))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002595419106')) 
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002595419106'))
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '')) #Verification Channel Id 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002595419106')) #Verification Channel Id 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002595419106')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/MoviePalace_Off")
