@@ -22,10 +22,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://i.ibb.co/ch3n9wsf/x.jpg')).split() 
+PICS = (environ.get('PICS', 'https://www.imghippo.com/i/oXbe8742pFI.jpg https://www.imghippo.com/i/aVz6392vMk.jpg https://www.imghippo.com/i/a6342LF.jpg https://www.imghippo.com/i/FLI3315bsU.jpg https://www.imghippo.com/i/rOQ5540g.jpg https://www.imghippo.com/i/dxW7671cYM.jpg https://www.imghippo.com/i/eFpv7414Jk.jpg https://www.imghippo.com/i/EAwL7781Ycs.jpg https://www.imghippo.com/i/XbaW3776gg.jpg https://www.imghippo.com/i/kKHE8405HNc.jpg https://www.imghippo.com/i/ez4953xB.jpg https://www.imghippo.com/i/dxCD2108xuQ.jpg https://www.imghippo.com/i/JL2705zVw.jpg https://www.imghippo.com/i/FaN2409Jyg.jpg https://www.imghippo.com/i/ysO9410ZI.jpg https://www.imghippo.com/i/ZIQ5453WZs.jpg https://www.imghippo.com/i/hsiK3547GE.png https://www.imghippo.com/i/wYiD7092sE.jpg https://www.imghippo.com/i/UW4764kY.jpg https://www.imghippo.com/i/dZr7065UyA.png')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/4073ba3f8086757c0ac29.mp4")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/3dacdcead375a33fc0697.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/f983d857f3ce40795e4b8.jpg'))
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split() 
 
