@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://github.com/NBBotz/Images/blob/main/Lucia.jpg">
+  <img src="Lucia/Bot/photo_2025-04-30_00-49-18.jpg">
 </p>
 
-<h1 align="center">Lucia Filter Bot</h1>
+<h1 align="center">Movie Palace Bot</h1>
 
 <p align="center">
-  <a href="https://t.me/SilentXBotz_Support">
+  <a href="https://t.me/MoviePalaceSupport">
     <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
   </a>
-  <a href="http://t.me/Lucia_Filter_Bot">
+  <a href="http://t.me/ReenuRoyBot">
     <img src="https://img.shields.io/badge/Demo%20Bot-Click%20Here-green?style=for-the-badge&logo=telegram">
   </a>
 </p>
@@ -40,7 +40,7 @@ Choose A Deployment Method Below And Get Your Bot Running Instantly!
 Click The Button Below To Instantly Deploy Your Bot On **Heroku**.  
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/NBBotz/Auto_Filter_Bot">
+  <a href="https://heroku.com/deploy?template=https://github.com/doctoxer/MoviePalaceBot">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku">
   </a>
 </p>
@@ -53,7 +53,7 @@ Click The Button Below To Instantly Deploy Your Bot On **Heroku**.
 Deploy On **Koyeb** In One Click!  
 
 <p align="center">
-  <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/NBBotz/Auto_Filter_Bot&branch=SilentXBotz &name=LuciaFilterBot">
+  <a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/doctoxer/MoviePalaceBot&branch=Legpiece &name=MoviePalaceBot">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
   </a>
 </p>
@@ -87,11 +87,6 @@ python3 bot.py
 </p>
   
 
-# 📌 Credits  
-
-- **Base Repository:** [Dreamcinezone](https://github.com/MrRaazz/Dreamcinezone.git)  
-- Thanks To **All The Developers** Whose Code Contributed To This Project!
-
 # Bugs & Fixes  
 
 **If You Find Any Bugs Or Errors In This Project, Feel Free To Fix Them And Submit A Pull Request. Contributions Are Always Welcome!**  
@@ -102,5 +97,5 @@ This Repository Is Provided For Educational Purposes Only. It Is Not Intended Fo
 
 ## License
 
-This Project Is Licensed Under The [GNU General Public License v3.0](https://github.com/NBBotz/Auto_Filter_Bot/blob/SilentXBotz/LICENSE)
+This Project Is Licensed Under The [GNU General Public License v3.0](https://github.com/doctoxer/MoviePalaceBot/blob/SilentXBotz/LICENSE)
 
