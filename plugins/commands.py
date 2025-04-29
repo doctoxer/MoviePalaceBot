@@ -89,15 +89,21 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton(text="⾕", callback_data="start"),
+                    InlineKeyboardButton(text="♡", url=GRP_LNK),
+                    InlineKeyboardButton(text="𖤍", callback_data="about"),
+                    InlineKeyboardButton(text="$", callback_data="earn"),
+                    InlineKeyboardButton(text="☰", url=CHNL_LNK),
                 ],[
-                    InlineKeyboardButton('• ᴛᴏᴘ •', callback_data="topsearch"),
-                    InlineKeyboardButton('• ᴜᴘɢʀᴀᴅᴇ •', callback_data="premium"),
+                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='features'),
-                    InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='bot')
+                    InlineKeyboardButton('• Tᴏᴘ •', callback_data="topsearch")"),
+                    InlineKeyboardButton('$ Eᴀʀɴ Mᴏɴᴇʏ', callback_data="earn")
                 ],[
-                    InlineKeyboardButton('• ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •', callback_data="earn")
+                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='features'),
+                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='bot')
+                ],[
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
