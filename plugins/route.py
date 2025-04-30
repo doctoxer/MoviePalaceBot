@@ -6,12 +6,12 @@ import secrets
 import time
 import mimetypes
 from aiohttp.http_exceptions import BadStatusLine
-from Lucia.Bot import multi_clients, work_loads, SilentX
-from Lucia.server.exceptions import FIleNotFound, InvalidHash
-from Lucia.zzint import StartTime, __version__
-from Lucia.util.custom_dl import ByteStreamer
-from Lucia.util.time_format import get_readable_time
-from Lucia.util.render_template import render_page
+from MoviePalace.Bot import multi_clients, work_loads, SilentX
+from MoviePalace.server.exceptions import FIleNotFound, InvalidHash
+from MoviePalace.zzint import StartTime, __version__
+from MoviePalace.util.custom_dl import ByteStreamer
+from MoviePalace.util.time_format import get_readable_time
+from MoviePalace.util.render_template import render_page
 from info import *
 
 
