@@ -2,7 +2,7 @@ import asyncio
 import logging
 from info import *
 from pyrogram import Client
-from Lucia.util.config_parser import TokenParser
+from MoviePalace.util.config_parser import TokenParser
 from . import multi_clients, work_loads, SilentX
 
 
