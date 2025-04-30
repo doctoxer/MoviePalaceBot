@@ -1,9 +1,9 @@
 import jinja2
 from info import *
-from Lucia.Bot import SilentX
-from Lucia.util.human_readable import humanbytes
-from Lucia.util.file_properties import get_file_ids
-from Lucia.server.exceptions import InvalidHash
+from MoviePalace.Bot import SilentX
+from MoviePalace.util.human_readable import humanbytes
+from MoviePalace.util.file_properties import get_file_ids
+from MoviePalace.server.exceptions import InvalidHash
 import urllib.parse
 import logging
 import aiohttp
@@ -24,9 +24,9 @@ async def render_page(id, secure_hash, src=None):
     tag = file_data.mime_type.split("/")[0].strip()
     file_size = humanbytes(file_data.file_size)
     if tag in ["video", "audio"]:
-        template_file = "Lucia/template/req.html"
+        template_file = "MoviePalace/template/req.html"
     else:
-        template_file = "Lucia/template/dl.html"
+        template_file = "MoviePalace/template/dl.html"
         async with aiohttp.ClientSession() as s:
             async with s.get(src) as u:
                 file_size = humanbytes(int(u.headers.get("Content-Length")))
