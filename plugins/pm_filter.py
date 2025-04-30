@@ -31,7 +31,7 @@ from database.gfilters_mdb import (
 )
 import logging
 from urllib.parse import quote_plus
-from Lucia.util.file_properties import get_name, get_hash, get_media_file_size
+from MoviePalace.util.file_properties import get_name, get_hash, get_media_file_size
 from database.topdb import silentdb
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
